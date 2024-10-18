@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Inter_Regular';
+    src: url('fonts/Inter_Regular/Inter24pt-Regular.eot');
+    src: url('fonts/Inter_Regular/Inter24pt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Inter_Regular/Inter24pt-Regular.woff2') format('woff2'),
+        url('fonts/Inter_Regular/Inter24pt-Regular.woff') format('woff'),
+        url('fonts/Inter_Regular/Inter24pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter_Medium';
+    src: url('fonts/Inter_Medium/Inter24pt-Medium.eot');
+    src: url('fonts/Inter_Medium/Inter24pt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Inter_Medium/Inter24pt-Medium.woff2') format('woff2'),
+        url('fonts/Inter_Medium/Inter24pt-Medium.woff') format('woff'),
+        url('fonts/Inter_Medium/Inter24pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter_SemiBold';
+    src: url('fonts/Inter_SemiBold/Inter24pt-SemiBold.eot');
+    src: url('fonts/Inter_SemiBold/Inter24pt-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Inter_SemiBold/Inter24pt-SemiBold.woff2') format('woff2'),
+        url('fonts/Inter_SemiBold/Inter24pt-SemiBold.woff') format('woff'),
+        url('fonts/Inter_SemiBold/Inter24pt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter_Bold';
+    src: url('fonts/Inter_Bold/Inter28pt-Bold.eot');
+    src: url('fonts/Inter_Bold/Inter28pt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Inter_Bold/Inter28pt-Bold.woff2') format('woff2'),
+        url('fonts/Inter_Bold/Inter28pt-Bold.woff') format('woff'),
+        url('fonts/Inter_Bold/Inter28pt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter_ExtraBold';
+    src: url('fonts/Inter_ExtraBold/Inter28pt-ExtraBold.eot');
+    src: url('fonts/Inter_ExtraBold/Inter28pt-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Inter_ExtraBold/Inter28pt-ExtraBold.woff2') format('woff2'),
+        url('fonts/Inter_ExtraBold/Inter28pt-ExtraBold.woff') format('woff'),
+        url('fonts/Inter_ExtraBold/Inter28pt-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
