@@ -1,0 +1,49 @@
+.section__four
+{
+    margin-bottom: var(--margin-bottom);
+    &-inside
+    {
+        &-group
+        {
+            display: flex;
+            gap: var(--gap);
+            &-left
+            {
+                img 
+                {
+                    margin-bottom: 32px;
+                }
+                .section__two-inside-left-description-arrows
+                {
+                    justify-content: flex-end;
+                    margin-right: 132px;
+                }
+            }
+            &-right
+            {
+                max-width: 600px;
+                h4 
+                {
+                    max-width: 478px;
+                    margin-bottom: 30px;
+                }
+                ul 
+                {
+                    padding-left: 50px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    margin-bottom: 65px;
+                }
+                svg path 
+                {
+                    fill: black;
+                }
+                .circle
+                {
+                    border-color: var(--dark-color);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+.section__two
+{
+    margin-bottom: var(--margin-bottom);
+    &-inside
+    {
+        &-group
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+        &-left
+        {
+            max-width: 510px;
+            &-links
+            {
+                display: flex;
+                gap: 40px;
+                margin-bottom: 120px;
+                p
+                {
+                    cursor: pointer;
+                    position: relative;
+                    font-size: var(--font-18px);
+                    &::before 
+                    {
+                        content: '';
+                        width: 0%;
+                        height: 1px;
+                        position: absolute;
+                        background-color: var(--dark-color);
+                        top: 27px;
+                        transition: .3s ease-in;
+                    }
+                    &:hover
+                    {
+                        &::before
+                        {
+                            width: 105%;
+                            transform: scale(1);
+                        }
+                    }
+                }
+            }
+            &-description 
+            {
+                display: flex;
+                gap: 40px;
+                margin-bottom: 100px;
+                img
+                {
+                    min-width: 235px;
+                    display: block;
+                }
+                &> div
+                {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                &-arrows
+                {
+                    display: flex;
+                    gap: 22px;
+                    svg
+                    {
+                        cursor: pointer;
+                        path
+                        {
+                            stroke: inherit;
+                            fill: black;
+                        }
+                    }
+                }
+                &-slider
+                {
+                    &-text
+                    {
+                    }
+                }
+            }
+            &-group-text
+            {
+                div
+                {
+                    flex-basis: 235px;
+                }
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+            }
+        }
+        &-right
+        {
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            img 
+            {
+                max-height: 525px;
+                height: 100%;
+            }
+        }
+    }
+}

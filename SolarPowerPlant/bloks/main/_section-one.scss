@@ -1,0 +1,25 @@
+.section__one
+{
+    &-inside
+    {
+        &-group
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            gap: 89px;
+            &-text
+            {
+                div 
+                {
+                    margin-bottom: 50px;
+                }
+                h4 
+                {
+                    margin-bottom: 15px
+                }
+            }
+        }
+    }
+    margin-bottom: var(--margin-bottom);
+}

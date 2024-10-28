@@ -1,0 +1,29 @@
+.section__five
+{
+    margin-bottom: var(--margin-bottom);
+    &-inside
+    {
+        &-group
+        {
+            display: flex;
+            gap: var(--gap);
+            &-text
+            {
+                h3
+                {
+                    max-width: 324px;
+                }
+                &-sentence
+                {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    p:first-child
+                    {
+                        margin-bottom: 11px;
+                    }
+                }
+            }
+        }
+    }
+}

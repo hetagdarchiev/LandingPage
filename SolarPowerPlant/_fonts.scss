@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'NotoSans_Regular';
+    src: url('fonts/NotoSans-Regular/NotoSans-Regular.eot');
+    src: url('fonts/NotoSans-Regular/NotoSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NotoSans-Regular/NotoSans-Regular.woff2') format('woff2'),
+        url('fonts/NotoSans-Regular/NotoSans-Regular.woff') format('woff'),
+        url('fonts/NotoSans-Regular/NotoSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSans_Bold';
+    src: url('fonts/NotoSans-Bold/NotoSans-Bold.eot');
+    src: url('fonts/NotoSans-Bold/NotoSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NotoSans-Bold/NotoSans-Bold.woff2') format('woff2'),
+        url('fonts/NotoSans-Bold/NotoSans-Bold.woff') format('woff'),
+        url('fonts/NotoSans-Bold/NotoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
