@@ -1,0 +1,95 @@
+:root
+{
+    --black-color: #000000;
+    --dark-color:#181818;
+    --white-color:#FFFFFF;
+    --white-color-two:#C0C0C0;
+
+    --font-Poppins: 'Poppins_Regular';
+    --font-size-h1: 54px;
+    --font-size-h2: 40px;
+    --font-size-h3: 24px;
+    --font-size-global: 14px;
+
+    --padding-bottom: 100px;
+    --padding-top: 120px;
+
+    --pos-absolute: 40px;
+
+}
+body
+{
+    font-family: var(--font-Poppins);
+    font-size: var(--font-size-global);
+    line-height: 20px;
+    color: var(--white-color);
+    background-color: var(--black-color);
+    font-weight: 400;
+}
+h1 
+{
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 59px;
+    text-align: center;
+    font-weight: 400;
+}
+h2 
+{
+    font-size: var(--font-size-h2);
+    line-height: 42px;
+    font-weight: 400;
+}
+h3 
+{
+    font-size: var(--font-size-h3);
+    line-height: 30px;
+    font-weight: 400;
+}
+p
+{
+    font-weight: 400;
+    line-height: 20px;
+
+    font-weight: 400;
+}
+.description
+{
+    position: absolute;
+    bottom: var(--pos-absolute);
+    right: var(--pos-absolute);
+    ul 
+    {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        li
+        {
+            display: flex;
+            align-items: flex-end;
+            gap: 6px;
+        }
+    }
+}
+.button-inside
+{
+    height: 42px;
+    display: flex;
+    width: 154px;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    border-radius: 14px;
+    padding-left: 4px;
+    padding-right: 10px;
+    font-size: 15px;
+    word-spacing: 0.4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    transition: .3s ease;
+    &:hover
+    {
+        background-color: var(--white-color-two);
+    }
+}

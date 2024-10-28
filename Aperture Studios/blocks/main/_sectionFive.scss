@@ -1,0 +1,26 @@
+.section__five
+{
+    background-image: url(./images/travBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-inline: 60px;
+    div:not(.description)
+    {
+        max-width: 300px;
+        p:first-child
+        {
+            word-spacing: 2px;
+            text-transform: uppercase;
+        }
+        p:last-child
+        {
+            color: var(--white-color-two);
+        }
+    }
+}

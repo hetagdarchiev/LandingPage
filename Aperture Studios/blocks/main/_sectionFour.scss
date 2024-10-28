@@ -1,0 +1,33 @@
+.section__four
+{
+    display: flex;
+    height: 540px;
+    div:first-child:not(.description)
+    {
+        padding: 113px 100px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p:first-child
+        {
+            margin-bottom: 6px;
+        }
+        h3 
+        {
+            margin-bottom: 14px;
+        }
+        .ss
+        {
+            margin-bottom: 20px;
+        }
+    }
+    div:last-child:not(.description)
+    {
+        background-image: url(./images/photoparats.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50%;
+        position: relative;
+    }
+}
